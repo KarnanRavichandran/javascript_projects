@@ -1,14 +1,18 @@
-let a = 10;
-let b = 20;
-let c;
-c = a + b;
-console.log(c);
+// assignment operator
+let a =50;
+ 
+a+= 5;
+console.log(a)
 
-c = a - b;
-console.log(c);
+a-= 5;
+console.log(a)
 
-c = a / b;
-console.log(c);
+a*= 5;
+console.log(a)
 
-c = a % b;
-console.log(c);
+a/= 5;
+console.log(a)
+
+
+a%= 5;
+console.log(a)
