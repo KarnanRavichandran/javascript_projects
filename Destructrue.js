@@ -13,8 +13,21 @@
 
 // after es6
 
-const numbers = [10,20,30,40,50]
-const[first_No,second_No,...rest]  = numbers
-console.log(first_No);
-console.log(second_No)
-console.log(...rest)
+// const numbers = [10,20,30,40,50]
+// const[first_No,second_No,...rest]  = numbers
+// console.log(first_No);
+// console.log(second_No)
+// console.log(...rest)
+
+
+// objects =>es6
+const users = {
+    name:"karnan",
+    age:25,
+    job:"Developer"
+}
+
+const{name,age,job} = users;
+console.log(name)
+console.log(age)
+console.log(job)
